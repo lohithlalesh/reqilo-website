@@ -1,25 +1,41 @@
-import { Button } from "@/components/ui/button";
-import { Loader2 } from "lucide-react";
-import { Streamdown } from 'streamdown';
-
-/**
- * All content in this page are only for example, replace with your own feature implementation
- * When building pages, remember your instructions in Frontend Best Practices, Design Guide and Common Pitfalls
+/* 
+ * REQILO HOME PAGE
+ * Design: Precision Engineering — Dark Sections with Light Canvas
+ * Assembles all sections in order
  */
-export default function Home() {
-  // If theme is switchable in App.tsx, we can implement theme toggling like this:
-  // const { theme, toggleTheme } = useTheme();
 
+import Navbar from "@/components/Navbar";
+import HeroSection from "@/components/HeroSection";
+import TickerSection from "@/components/TickerSection";
+import PlatformSection from "@/components/PlatformSection";
+import TrustBar from "@/components/TrustBar";
+import ProductsSection from "@/components/ProductsSection";
+import WorkflowSection from "@/components/WorkflowSection";
+import KnowledgeCoreSection from "@/components/KnowledgeCoreSection";
+import WhyNowSection from "@/components/WhyNowSection";
+import StackSection from "@/components/StackSection";
+import AIPhilosophySection from "@/components/AIPhilosophySection";
+import MoatSection from "@/components/MoatSection";
+import CTASection from "@/components/CTASection";
+import Footer from "@/components/Footer";
+
+export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col">
-      <main>
-        {/* Example: lucide-react for icons */}
-        <Loader2 className="animate-spin" />
-        Example Page
-        {/* Example: Streamdown for markdown rendering */}
-        <Streamdown>Any **markdown** content</Streamdown>
-        <Button variant="default">Example Button</Button>
-      </main>
+    <div className="min-h-screen">
+      <Navbar />
+      <HeroSection />
+      <TickerSection />
+      <PlatformSection />
+      <TrustBar />
+      <ProductsSection />
+      <WorkflowSection />
+      <KnowledgeCoreSection />
+      <AIPhilosophySection />
+      <WhyNowSection />
+      <StackSection />
+      <MoatSection />
+      <CTASection />
+      <Footer />
     </div>
   );
 }
