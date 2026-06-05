@@ -43,7 +43,7 @@ const forces = [
     badge: "Force 3",
     badgeColor: "#00d4ff",
     desc: "Claude Sonnet 4.6 and equivalents finally hit the accuracy bar for regulated document workflows. Two years ago this product wasn't buildable.",
-    detail: "The technology window is now — and Reqilo is first to market with a domain-specific stack.",
+    detail: "The technology window is now and Reqilo is first to market with a domain-specific stack.",
   },
   {
     icon: Globe,
@@ -65,9 +65,9 @@ export default function WhyNowSection() {
         <div ref={titleRef} className="reveal mb-16">
           <div className="section-label text-[#00a8cc] mb-4">Why Now</div>
           <h2 className="font-display text-4xl sm:text-5xl font-800 text-[#0a0f1e] leading-tight mb-4">
-            Three forces converge —
+            Three forces converge
             <br />
-            <span className="text-gradient-cyan">first time in 20 years.</span>
+            <span className="text-gradient-cyan">for the first time in 20 years</span>
           </h2>
           <p className="text-lg text-[#4b5563] max-w-2xl">
             The regulatory environment, market consolidation, and AI capability have aligned simultaneously. The window is now.

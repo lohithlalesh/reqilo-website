@@ -24,7 +24,7 @@ const moatCards = [
   {
     icon: Lock,
     title: "Two-Sided Structural Lock-In",
-    desc: "Suppliers want to be where the buyers run tenders. Buyers want suppliers who can respond fast. Firewalled but adjacent — same platform, opposite incentives.",
+    desc: "Suppliers want to be where the buyers run tenders. Buyers want suppliers who can respond fast. Firewalled but adjacent with same platform and opposite incentives.",
     color: "#00d4ff",
   },
   {
@@ -36,7 +36,7 @@ const moatCards = [
   {
     icon: Network,
     title: "Domain Graph That Compounds",
-    desc: "Every tender ingested deepens the Knowledge Core. Product taxonomies, supplier credentials, compliance evidence — a graph that sharpens with every customer.",
+    desc: "Every tender ingested deepens the Knowledge Core. Product taxonomies, supplier credentials, compliance evidence create a graph that sharpens with every customer.",
     color: "#00d4ff",
   },
   {
@@ -63,9 +63,9 @@ export default function MoatSection() {
         <div ref={titleRef} className="reveal mb-16">
           <div className="section-label text-[#00a8cc] mb-4">The Moat</div>
           <h2 className="font-display text-4xl sm:text-5xl font-800 text-[#0a0f1e] leading-tight mb-4">
-            Why this is defensible —
+            Why this is defensible
             <br />
-            <span className="text-gradient-cyan">and why it gets harder to copy.</span>
+            <span className="text-gradient-cyan">and why it gets harder to copy</span>
           </h2>
           <p className="text-lg text-[#4b5563] max-w-2xl">
             Four structural advantages that compound with every customer and every tender processed.

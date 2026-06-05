@@ -94,7 +94,7 @@ export default function WorkflowSection() {
               <div className="w-2 h-2 rounded-full bg-[#00d4ff]" />
               <span className="section-label text-[#00a8cc]">Reqilo — Supplier Workflow</span>
               <div className="flex-1 h-px bg-gray-100" />
-              <span className="text-xs text-[#9ca3af] font-medium">3–6 weeks → &lt;1 day</span>
+              <span className="text-xs text-[#9ca3af] font-medium">3 to 6 weeks to less than 1 day</span>
             </div>
             <div className="flex items-start gap-0">
               {supplierFlow.map((step, i) => (
@@ -111,7 +111,7 @@ export default function WorkflowSection() {
               <div className="w-2 h-2 rounded-full bg-[#2563eb]" />
               <span className="section-label text-[#2563eb]">Reqilo Px — Buyer Workflow</span>
               <div className="flex-1 h-px bg-gray-100" />
-              <span className="text-xs text-[#9ca3af] font-medium">15 HITL gates · 2/2 approver signatures</span>
+              <span className="text-xs text-[#9ca3af] font-medium">15 HITL gates with 2 approver signatures</span>
             </div>
             <div className="flex items-start gap-0">
               {buyerFlow.map((step, i) => (
@@ -126,7 +126,7 @@ export default function WorkflowSection() {
           <p className="text-sm text-[#9ca3af]">
             Both workflows run on the same{" "}
             <span className="font-mono-brand text-[#0a0f1e] font-medium">Knowledge Core</span>
-            {" "}— tender ingestion · spec extraction · compliance evidence · multi-supplier comparison · audit trail
+            {" "}with tender ingestion, spec extraction, compliance evidence, multi-supplier comparison, and audit trail
           </p>
         </div>
       </div>

@@ -44,7 +44,7 @@ export default function PlatformSection() {
             <br />Both sides of the deal.
           </h2>
           <p className="text-lg text-[#4b5563] leading-relaxed">
-            AI proposes. Humans dispose. Audit log captures everything. Reqilo connects healthcare suppliers and buyers through a shared intelligence layer — with strict data separation between both sides.
+            AI proposes. Humans dispose. Audit log captures everything. Reqilo connects healthcare suppliers and buyers through a shared intelligence layer with strict data separation between both sides.
           </p>
         </div>
 

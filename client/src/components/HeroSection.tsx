@@ -82,7 +82,7 @@ export default function HeroSection() {
 
           {/* Sub */}
           <p className="text-lg sm:text-xl text-[rgba(255,255,255,0.65)] leading-relaxed mb-8 max-w-xl font-light">
-            The AI platform that connects healthcare suppliers and buyers — from tender ingestion to award, with a full audit trail and compliance built in.
+            The AI platform that connects healthcare suppliers and buyers from tender ingestion to award, with a full audit trail and compliance built in.
           </p>
 
           {/* CTAs */}
@@ -115,7 +115,7 @@ export default function HeroSection() {
               <div className="font-display text-3xl font-800 text-white">
                 {"<"}<AnimatedCounter end={1} suffix=" day" />
               </div>
-              <div className="text-xs text-[rgba(255,255,255,0.5)] mt-1 font-medium">From 3–6 weeks of manual work</div>
+              <div className="text-xs text-[rgba(255,255,255,0.5)] mt-1 font-medium">From 3 to 6 weeks of manual work</div>
             </div>
             <div>
               <div className="font-display text-3xl font-800 text-[#00d4ff]">

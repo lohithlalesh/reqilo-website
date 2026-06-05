@@ -25,11 +25,11 @@ const auditLog = [
   { time: "09:14:22", event: "Tender ingested", detail: "MOH-UAE-2026-DX-0441.pdf", status: "ok" },
   { time: "09:14:45", event: "Requirements extracted", detail: "47 line items classified", status: "ok" },
   { time: "09:15:01", event: "Catalog match", detail: "43/47 items matched (91.5%)", status: "ok" },
-  { time: "09:15:18", event: "Compliance check", detail: "UAE PDPL · MDR · ISO 13485", status: "ok" },
+  { time: "09:15:18", event: "Compliance check", detail: "UAE PDPL, MDR, ISO 13485", status: "ok" },
   { time: "09:16:02", event: "Draft response generated", detail: "AI confidence: 94.2%", status: "pending" },
-  { time: "09:16:15", event: "HITL gate #1 — Review required", detail: "Awaiting: procurement@company.ae", status: "waiting" },
+  { time: "09:16:15", event: "HITL gate 1 Review required", detail: "Awaiting: procurement@company.ae", status: "waiting" },
   { time: "09:31:44", event: "Human approved", detail: "Reviewed by: J. Al-Rashidi", status: "ok" },
-  { time: "09:31:44", event: "Decision logged", detail: "Immutable · SHA-256 signed", status: "locked" },
+  { time: "09:31:44", event: "Decision logged", detail: "Immutable with SHA-256 signed", status: "locked" },
 ];
 
 const statusConfig = {

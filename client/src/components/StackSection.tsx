@@ -32,8 +32,8 @@ const stackLayers = [
   {
     phase: "MVP",
     phaseColor: "#2563eb",
-    title: "Supplier Platform (Reqilo Dx · Rx · Lx)",
-    desc: "Distributors submit tenders in <1 day · Lx in Phase 1",
+    title: "Supplier Platform (Reqilo Dx, Rx, Lx)",
+    desc: "Distributors submit tenders in less than 1 day with Lx in Phase 1",
     bg: "rgba(37, 99, 235, 0.06)",
     border: "rgba(37, 99, 235, 0.2)",
   },
@@ -49,7 +49,7 @@ const stackLayers = [
     phase: "PHASE 3",
     phaseColor: "#2563eb",
     title: "Manufacturer Intelligence",
-    desc: "Dxm · Rxm · regulatory + market signals",
+    desc: "Dxm, Rxm with regulatory and market signals",
     bg: "rgba(37, 99, 235, 0.06)",
     border: "rgba(37, 99, 235, 0.2)",
   },
@@ -59,9 +59,9 @@ const verticals = [
   {
     icon: Heart,
     name: "Reqilo Health",
-    status: "Active · Today",
+    status: "Active Today",
     statusColor: "#00d4ff",
-    desc: "Dx · Rx · Lx · Px · Manufacturers",
+    desc: "Dx, Rx, Lx, Px, Manufacturers",
     active: true,
   },
   {
@@ -69,7 +69,7 @@ const verticals = [
     name: "Reqilo Energy",
     status: "Vertical 2",
     statusColor: "rgba(255,255,255,0.3)",
-    desc: "Oil & Gas tenders, EPC RFQs, NOC + supplier qualification",
+    desc: "Oil and Gas tenders, EPC RFQs, NOC with supplier qualification",
     active: false,
   },
   {
@@ -77,7 +77,7 @@ const verticals = [
     name: "Reqilo Aviation",
     status: "Vertical 3",
     statusColor: "rgba(255,255,255,0.3)",
-    desc: "MRO procurement, OEM compliance, FAA/EASA cert tracking",
+    desc: "MRO procurement, OEM compliance, FAA and EASA cert tracking",
     active: false,
   },
   {
@@ -85,7 +85,7 @@ const verticals = [
     name: "Reqilo Engineering",
     status: "Vertical 4",
     statusColor: "rgba(255,255,255,0.3)",
-    desc: "Mega-project EPC, multi-vendor evaluation, infrastructure",
+    desc: "Mega-project EPC with multi-vendor evaluation and infrastructure",
     active: false,
   },
 ];
@@ -121,7 +121,7 @@ export default function StackSection() {
               <div className="section-label text-white/30 mb-3 text-[10px]">WHY IT WORKS</div>
               <p className="text-white/70 text-sm font-medium mb-2">Each layer makes the next one easier.</p>
               <p className="text-white/40 text-xs leading-relaxed">
-                Same Knowledge Core for both sides. Two-sided platform leverage from day one. Suppliers want to be where buyers run tenders. Buyers want suppliers who can respond fast.
+                Same Knowledge Core for both sides. Two-sided platform leverage from day one. Suppliers want to be where buyers run tenders. Buyers want suppliers who respond fast.
               </p>
             </div>
           </div>

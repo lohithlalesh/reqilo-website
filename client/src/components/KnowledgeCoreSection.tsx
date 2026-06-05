@@ -62,14 +62,14 @@ export default function KnowledgeCoreSection() {
                 <span className="text-gradient-cyan">The moat that compounds.</span>
               </h2>
               <p className="text-white/60 text-lg leading-relaxed">
-                Every tender ingested deepens the Knowledge Core. Product taxonomies, supplier credentials, compliance evidence — a domain graph that sharpens with every customer.
+                Every tender ingested deepens the Knowledge Core. Product taxonomies, supplier credentials, compliance evidence create a domain graph that sharpens with every customer.
               </p>
             </div>
             <div className="flex flex-col gap-3">
               <div className="card-dark p-4 rounded-xl">
                 <div className="font-mono-brand text-[#00d4ff] text-xs mb-1">THE PRIMITIVES ARE UNIVERSAL</div>
                 <div className="text-white/50 text-xs leading-relaxed">
-                  tender ingestion · spec extraction · compliance evidence · multi-supplier comparison · audit trail
+                  tender ingestion, spec extraction, compliance evidence, multi-supplier comparison, audit trail
                   <br />
                   <span className="text-white/30 italic mt-1 block">Knowledge Core abstracts all of it.</span>
                 </div>
