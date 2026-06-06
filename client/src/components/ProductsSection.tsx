@@ -8,8 +8,8 @@
 import { useEffect, useRef, useState } from "react";
 import { FileText, Brain, Wrench, Send, PenLine, Globe, Search, Award } from "lucide-react";
 
-const SUPPLIER_MOCKUP = "https://d2xsxph8kpxj0f.cloudfront.net/310519663731614958/3mTd8vRSeY4gzRrW7oajvx/reqilo_dashboard_mockup-dxG5NR5NkZX5uTWw9x2yVn.webp";
-const BUYER_MOCKUP = "https://d2xsxph8kpxj0f.cloudfront.net/310519663731614958/3mTd8vRSeY4gzRrW7oajvx/reqilo_buyer_mockup-YL6q4wtubx44SBM2NR7Pjp.webp";
+const SUPPLIER_MOCKUP = "https://d2xsxph8kpxj0f.cloudfront.net/310519663731614958/3mTd8vRSeY4gzRrW7oajvx/reqilo_supplier_dashboard_updated-Tc9NeMFbAsUgXiu7f3Uvd4.webp";
+const BUYER_MOCKUP = "https://d2xsxph8kpxj0f.cloudfront.net/310519663731614958/3mTd8vRSeY4gzRrW7oajvx/reqilo_buyer_dashboard_updated-c3TXeBX5mimpeGAxuLPogY.webp";
 
 function useReveal(threshold = 0.1) {
   const ref = useRef<HTMLDivElement>(null);
