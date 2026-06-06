@@ -6,7 +6,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { ArrowRight } from "lucide-react";
-import ConstellationCanvas from "./ConstellationCanvas";
+import DNASpiral from "./DNASpiral";
 
 const HERO_BG = "https://d2xsxph8kpxj0f.cloudfront.net/310519663731614958/3mTd8vRSeY4gzRrW7oajvx/reqilo_hero_bg-3oW7rWitcKHH4neuu897Dk.webp";
 
@@ -49,16 +49,13 @@ export default function HeroSection() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col justify-center overflow-hidden"
-      style={{
-        background: "linear-gradient(135deg, #0f1729 0%, #1a2847 50%, #2d1b4e 100%)",
-      }}
+      className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-[#0a0f1e]"
     >
-      {/* Overlay gradient for text readability */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#0f1729]/90 via-[#1a2847]/70 to-transparent" />
-      <div className="absolute inset-0 bg-gradient-to-t from-[#0f1729] via-transparent to-transparent" />
-      {/* Animated constellation overlay */}
-      <ConstellationCanvas />
+      {/* Animated DNA spiral background */}
+      <DNASpiral />
+      {/* Gradient overlay for text readability */}
+      <div className="absolute inset-0 bg-gradient-to-r from-[#0a0f1e]/95 via-[#0a0f1e]/70 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-t from-[#0a0f1e] via-transparent to-transparent" />
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">

@@ -104,15 +104,19 @@ export default function CTASection() {
             <div className="card-dark p-8 rounded-2xl">
               {submitted ? (
                 <div className="text-center py-8">
+                  <img src="/manus-storage/Reqilologo_c72a6e54.svg" alt="Reqilo" className="h-20 w-auto mx-auto mb-6" />
                   <div className="w-16 h-16 rounded-full bg-[#00d4ff]/10 border border-[#00d4ff]/30 flex items-center justify-center mx-auto mb-4">
                     <CheckCircle size={28} className="text-[#00d4ff]" />
                   </div>
                   <h3 className="font-display font-700 text-white text-xl mb-2">Request received.</h3>
-                  <p className="text-white/50 text-sm">We'll be in touch within 24 hours.</p>
+                  <p className="text-white/50 text-sm">We will be in touch within 24 hours.</p>
                 </div>
               ) : (
                 <>
-                  <h3 className="font-display font-700 text-white text-xl mb-6">Request a Demo</h3>
+                  <div className="flex items-center gap-3 mb-6">
+                    <img src="/manus-storage/Reqilologo_c72a6e54.svg" alt="Reqilo" className="h-12 w-auto" />
+                    <h3 className="font-display font-700 text-white text-xl">Request a Demo</h3>
+                  </div>
                   <form onSubmit={handleSubmit} className="space-y-4">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <div>
