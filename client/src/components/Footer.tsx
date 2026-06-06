@@ -16,7 +16,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="mb-4 cursor-pointer" onClick={() => scrollTo("hero")}>
-              <img src="/manus-storage/Reqilologo_c72a6e54.svg" alt="Reqilo" className="h-12 w-auto mb-4" />
+              <img src="/manus-storage/Reqilologo_c72a6e54.svg" alt="Reqilo" className="h-16 w-auto mb-4" />
             </div>
             <p className="text-white/40 text-xs leading-relaxed mb-4">
               Healthcare procurement intelligence for the GCC and Europe.

@@ -57,8 +57,8 @@ export default function HeroSection() {
       }}
     >
       {/* Overlay gradient for text readability */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#0a0f1e] via-[#0a0f1e]/90 to-[#0a0f1e]/40" />
-      <div className="absolute inset-0 bg-gradient-to-t from-[#0a0f1e] via-transparent to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#1a1f3a] via-[#1a1f3a]/80 to-[#1a1f3a]/30" />
+      <div className="absolute inset-0 bg-gradient-to-t from-[#1a1f3a] via-transparent to-transparent" />
       {/* Animated constellation overlay */}
       <ConstellationCanvas />
 

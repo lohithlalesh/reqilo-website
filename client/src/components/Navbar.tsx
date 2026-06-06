@@ -35,7 +35,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center cursor-pointer" onClick={() => scrollTo("hero")}>
-            <img src="/manus-storage/Reqilologo_c72a6e54.svg" alt="Reqilo" className="h-10 w-auto" />
+            <img src="/manus-storage/Reqilologo_c72a6e54.svg" alt="Reqilo" className="h-14 w-auto" />
           </div>
 
           {/* Desktop Nav */}
