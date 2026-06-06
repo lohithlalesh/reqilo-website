@@ -15,22 +15,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
           {/* Brand */}
           <div className="md:col-span-1">
-            <div className="flex items-center gap-2 mb-4 cursor-pointer" onClick={() => scrollTo("hero")}>
-              <div className="w-8 h-8 rounded-lg bg-[#0a0f1e] border border-white/10 flex items-center justify-center flex-shrink-0">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
-                  <path d="M12 2L4 6v6c0 5.5 3.5 10.7 8 12 4.5-1.3 8-6.5 8-12V6L12 2z" stroke="#00d4ff" strokeWidth="1.5" fill="none"/>
-                  <circle cx="9" cy="10" r="1.5" fill="#00d4ff"/>
-                  <circle cx="15" cy="10" r="1.5" fill="#2563eb"/>
-                  <circle cx="12" cy="15" r="1.5" fill="#00d4ff"/>
-                  <line x1="9" y1="10" x2="15" y2="10" stroke="#00d4ff" strokeWidth="0.8" opacity="0.6"/>
-                  <line x1="9" y1="10" x2="12" y2="15" stroke="#00d4ff" strokeWidth="0.8" opacity="0.6"/>
-                  <line x1="15" y1="10" x2="12" y2="15" stroke="#2563eb" strokeWidth="0.8" opacity="0.6"/>
-                </svg>
-              </div>
-              <div>
-                <span className="font-display font-700 text-white text-base leading-none">Reqilo</span>
-                <div className="text-[8px] text-white/30 font-medium tracking-widest uppercase mt-0.5">Required Intelligence.</div>
-              </div>
+            <div className="mb-4 cursor-pointer" onClick={() => scrollTo("hero")}>
+              <img src="/manus-storage/Reqilologo_c72a6e54.svg" alt="Reqilo" className="h-12 w-auto mb-4" />
             </div>
             <p className="text-white/40 text-xs leading-relaxed mb-4">
               Healthcare procurement intelligence for the GCC and Europe.
