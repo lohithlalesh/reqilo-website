@@ -49,34 +49,34 @@ export default function HeroSection() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-transparent"
+      className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-white"
     >
       {/* Animated DNA spiral background */}
       <DNASpiral />
       {/* Subtle overlay for text readability */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/20 via-transparent to-transparent" />
-      <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-white/30 via-transparent to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-t from-white/20 via-transparent to-transparent" />
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-24 pb-16">
         <div className="max-w-3xl">
           {/* Label */}
           <div className="flex items-center gap-2 mb-6">
-            <div className="section-label text-[#00d4ff]">Healthcare Procurement Intelligence</div>
-            <div className="w-1 h-1 rounded-full bg-[#00d4ff]" />
-            <div className="section-label text-[rgba(255,255,255,0.4)]">GCC · Europe</div>
+            <div className="section-label text-[#2563eb]">Healthcare Procurement Intelligence</div>
+            <div className="w-1 h-1 rounded-full bg-[#2563eb]" />
+            <div className="section-label text-[rgba(0,0,0,0.5)]">GCC · Europe</div>
           </div>
 
           {/* Headline */}
-          <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-800 text-white leading-[1.05] tracking-tight mb-6">
+          <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-800 text-slate-900 leading-[1.05] tracking-tight mb-6">
             From Requirement
             <br />
             to{" "}
-            <span className="text-gradient-cyan">Submission.</span>
+            <span className="text-[#2563eb]">Submission.</span>
           </h1>
 
           {/* Sub */}
-          <p className="text-lg sm:text-xl text-[rgba(255,255,255,0.65)] leading-relaxed mb-8 max-w-xl font-light">
+          <p className="text-lg sm:text-xl text-slate-600 leading-relaxed mb-8 max-w-xl font-light">
             The AI platform that connects healthcare suppliers and buyers from tender ingestion to award, with a full audit trail and compliance built in.
           </p>
 
@@ -91,38 +91,38 @@ export default function HeroSection() {
             </button>
             <button
               onClick={() => scrollTo("contact")}
-              className="inline-flex items-center gap-2 px-6 py-3 text-sm font-medium text-white border border-white/20 rounded-md hover:bg-white/10 transition-all duration-180"
+              className="inline-flex items-center gap-2 px-6 py-3 text-sm font-medium text-slate-700 border border-slate-300 rounded-md hover:bg-slate-50 transition-all duration-180"
             >
               Request a Demo
             </button>
           </div>
 
           {/* Stats bar */}
-          <div className="flex flex-col sm:flex-row gap-8 sm:gap-12 pt-8 border-t border-white/10">
+          <div className="flex flex-col sm:flex-row gap-8 sm:gap-12 pt-8 border-t border-slate-200">
             <div>
-              <div className="font-display text-3xl font-800 text-white">
+              <div className="font-display text-3xl font-800 text-slate-900">
                 <AnimatedCounter end={80} suffix="%" />
-                <span className="text-[#00d4ff]">+</span>
+                <span className="text-[#2563eb]">+</span>
               </div>
-              <div className="text-xs text-[rgba(255,255,255,0.5)] mt-1 font-medium">Reduction in submission time</div>
+              <div className="text-xs text-slate-500 mt-1 font-medium">Reduction in submission time</div>
             </div>
             <div>
-              <div className="font-display text-3xl font-800 text-white">
+              <div className="font-display text-3xl font-800 text-slate-900">
                 {"<"}<AnimatedCounter end={1} suffix=" day" />
               </div>
-              <div className="text-xs text-[rgba(255,255,255,0.5)] mt-1 font-medium">From 3 to 6 weeks of manual work</div>
+              <div className="text-xs text-slate-500 mt-1 font-medium">From 3 to 6 weeks of manual work</div>
             </div>
             <div>
-              <div className="font-display text-3xl font-800 text-[#00d4ff]">
+              <div className="font-display text-3xl font-800 text-[#2563eb]">
                 <AnimatedCounter end={100} suffix="%" />
               </div>
-              <div className="text-xs text-[rgba(255,255,255,0.5)] mt-1 font-medium">Decisions in immutable audit log</div>
+              <div className="text-xs text-slate-500 mt-1 font-medium">Decisions in immutable audit log</div>
             </div>
             <div>
-              <div className="font-display text-3xl font-800 text-white">
+              <div className="font-display text-3xl font-800 text-slate-900">
                 <AnimatedCounter end={15} />
               </div>
-              <div className="text-xs text-[rgba(255,255,255,0.5)] mt-1 font-medium">HITL gates per tender</div>
+              <div className="text-xs text-slate-500 mt-1 font-medium">HITL gates per tender</div>
             </div>
           </div>
         </div>

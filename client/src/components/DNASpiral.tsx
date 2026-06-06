@@ -25,7 +25,7 @@ export default function DNASpiral() {
       time += 0.005;
 
       // Clear canvas with semi-transparent background for trail effect
-      ctx.fillStyle = "rgba(15, 23, 41, 0.1)";
+      ctx.fillStyle = "rgba(255, 255, 255, 0.05)";
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
       ctx.save();
@@ -37,7 +37,7 @@ export default function DNASpiral() {
         const spiralScale = 1 + spiral * 0.3;
 
         // Draw the helix
-        ctx.strokeStyle = `rgba(0, 212, 255, ${0.3 - spiral * 0.08})`;
+        ctx.strokeStyle = `rgba(100, 200, 255, ${0.25 - spiral * 0.06})`;
         ctx.lineWidth = 2;
         ctx.beginPath();
 
@@ -69,7 +69,7 @@ export default function DNASpiral() {
           const screenX = x * scale;
           const screenY = y * scale;
 
-          ctx.fillStyle = `rgba(0, 212, 255, ${0.6 - spiral * 0.15})`;
+          ctx.fillStyle = `rgba(100, 200, 255, ${0.4 - spiral * 0.1})`;
           ctx.beginPath();
           ctx.arc(screenX, screenY, 3 * scale, 0, Math.PI * 2);
           ctx.fill();
