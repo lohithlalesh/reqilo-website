@@ -49,16 +49,14 @@ export default function HeroSection() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-[#0a0f1e]"
+      className="relative min-h-screen flex flex-col justify-center overflow-hidden"
       style={{
-        backgroundImage: `url(${HERO_BG})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center right",
+        background: "linear-gradient(135deg, #0f1729 0%, #1a2847 50%, #2d1b4e 100%)",
       }}
     >
       {/* Overlay gradient for text readability */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#1a1f3a] via-[#1a1f3a]/80 to-[#1a1f3a]/30" />
-      <div className="absolute inset-0 bg-gradient-to-t from-[#1a1f3a] via-transparent to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-r from-[#0f1729]/90 via-[#1a2847]/70 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-t from-[#0f1729] via-transparent to-transparent" />
       {/* Animated constellation overlay */}
       <ConstellationCanvas />
 
